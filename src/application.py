@@ -50,7 +50,7 @@ def predict_datapoint():
         if results == 1:
             results = "Customer will default the payment next month"
         else:
-            results = "Customer will not default the payment next month"    
+            results = "Customer will not default the payment next month. "    
 
         return render_template('form.html',final_result=results)
     
